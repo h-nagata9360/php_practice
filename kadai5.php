@@ -13,8 +13,8 @@ for ($i=0; $i<=10000; $i++) {
 echo $total;
 echo "\n";
 $fruits=["apple","banana","melon","strowbelly","orange"];
-foreach($fruits as $fruits){
-  echo "要素は".$fruits;
+foreach($fruits as $fruit){
+  echo "要素は".$fruit;
   echo "\n";
 }
 echo "\n";
