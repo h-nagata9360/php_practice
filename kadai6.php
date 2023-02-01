@@ -11,14 +11,14 @@ echo add(3,8);
 echo "\n";
 $arr=array(1,3,5,7,9);
 
-function A1($arr) {
+function multipluarray($arr) {
   $result=1;
   foreach($arr as $value) {
     $result*=$value;
   }
      echo("配列の計算結果は:".$result);
 } 
-A1($arr);
+multipluarray($arr);
 echo "\n";
 function max_array($arr){
   $max_number = $arr[0];
