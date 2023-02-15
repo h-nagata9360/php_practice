@@ -19,4 +19,8 @@ Route::controller(AAAController::class)->group(function() {
 });
 
 // 問４
-// web php参照
+use App\Http\Controllers\Admin\ProfileController;
+Route::controller(ProfileController::class)->prefix('admin')->group(function() {
+    Route::get('Profile/create', 'add');
+    Route::get('Profile/edit', 'edit');
+});
